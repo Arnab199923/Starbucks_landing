@@ -155,7 +155,7 @@ header{
 }
 .shop-container .box{
     flex: 1 1 10rem;
-    background:var(--main-color);
+    background:var(--second-color);
     padding: 20px;
     text-align-last: center;
     display: flex;
@@ -179,14 +179,14 @@ header{
     margin: 1rem 0 0.1rem;
 }
 .shop-container .box .stars .bx{
-    color: #eeffff;
+    color: #ffeeee;
 }
 .shop-container .box h2{
-    color: #eeef88;
+    color: #88ceef;
     font-size: 1.2rem;
 }
 .shop-container .box span{
-    color: #f5f5dc;
+    color: #f5dcf0;
     font-size: 1.4rem;
     font-weight: 500;
     margin: 0.2rem 0 0.5rem;
@@ -194,6 +194,7 @@ header{
 
 .box .btn{
     border: 2px solid #97f857;
+    color: #fff;
     transition: 0.2s background;
 }
 .box .btn:hover{
